@@ -41,7 +41,7 @@
 	// "postCreateCommand": "kubectl version",
 
 	// Use 'postStartCommand' to run commands after the container is started.
-	"postStartCommand": "bash scripts/setup-crossplane.sh"
+	"postStartCommand": "bash scripts/install-dev-tools.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
