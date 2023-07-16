@@ -4,4 +4,4 @@
 ./scripts/setup-crossplane.sh
 
 # Run ArgoCD setup script
-./scripts/setup-argocd.sh
+# ./scripts/setup-argocd.sh
