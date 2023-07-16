@@ -16,6 +16,3 @@ crossplane-stable/crossplane \
 # Install kubectl-crossplane CLI and add it to PATH variables
 curl -sL https://raw.githubusercontent.com/crossplane/crossplane/master/install.sh | sh
 sudo mv kubectl-crossplane /usr/local/bin
-
-
-
