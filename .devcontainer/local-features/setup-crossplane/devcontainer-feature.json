@@ -1,0 +1,18 @@
+{
+	"id": "setup-crossplane",
+	"installsAfter": [
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1",
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1",
+		"./local-features/copy-kube-config",
+		"ghcr.io/devcontainers-contrib/features/kind:1",
+		"ghcr.io/rio/features/kustomize:1"
+	],
+	"name": "Creates a local Kubernetes cluster using kind and installs crossplane",
+	"options": {
+		"username": {
+			"type": "string",
+			"default": "",
+			"description": "Enter name of non-root user to configure or blank to use remoteUser"
+		}
+	}
+}
