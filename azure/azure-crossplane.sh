@@ -21,3 +21,7 @@ kubectl create secret \
 generic azure-secret \
 -n crossplane-system \
 --from-file=creds=./azure/azure-credentials.json
+
+# Create Kubernetes provider and providerConfig for Azure
+kubectl apply -f azure/provider.yaml
+kubectl apply -f azure/providerConfig.yaml

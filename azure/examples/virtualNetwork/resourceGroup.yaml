@@ -1,0 +1,9 @@
+apiVersion: azure.upbound.io/v1beta1
+kind: ResourceGroup
+metadata:
+  name: crossplane-test
+spec:
+  forProvider:
+    location: "South India"
+    tags:
+      createdBy: "crossplane"
